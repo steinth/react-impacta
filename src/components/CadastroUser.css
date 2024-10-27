@@ -57,9 +57,56 @@
 
 /* css cadastro acima */
 
-table, th{
-    background-color: #8845a0;
-    border: 1px solid rgb(0, 0, 0);
-    color: rgb(242, 242, 242);
+/* css da pagina de listar usuario */
+
+table {
     border-collapse: collapse;
+    width: 80%;
+  }
+  
+th {
+    border: 1px solid #ffffff;
+    padding: 13px;
+    background-color: #383838;
+    color: white;
+}
+
+td {
+    border: 1px solid #ffffff;
+    padding: 13px;
+    background-color: #666666;
+    color: white;
+}
+
+.divList{
+    background-color: rgb(55, 55, 55);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.h2List{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+.botaoLista{
+    width: 60%;
+    background-color: #4ca3af;
+    color: white;
+    padding: 10px 9px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.botaoLista:hover {
+    background-color: #32a1b0;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
 }
