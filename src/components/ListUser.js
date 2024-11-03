@@ -11,7 +11,7 @@ function ListUser() {
   }, []);
 
   function updateUser(id) {
-    alert(id);
+    window.location.href = "http://localhost:3000/update/"+id
   }
 
   return (
@@ -32,7 +32,7 @@ function ListUser() {
               <td>{dado.id}</td>
               <td>{dado.name}</td>
               <td>{dado.email}</td>
-              <td>{dado.cpf_cnpj}</td> // nao faz sentido mostrar senha na tabela
+              <td>{dado.cpf_cnpj}</td>
               <td>
                 <input
                   className="botaoLista"

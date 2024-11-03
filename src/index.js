@@ -7,6 +7,7 @@ import TestCep from './components/TestCep'
 import CadastroUser from './components/CadastroUser';
 import reportWebVitals from './reportWebVitals';
 import ListUser from './components/ListUser';
+import UpdateUser from './components/UpdateUser';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,6 +18,7 @@ root.render(
       <Route path='/cadastro' element={<CadastroUser/>}/>
       <Route path='/cep' element={<TestCep/>}/>
       <Route path='/listar-usuario' element={<ListUser/>}/>
+      <Route path='/update/:id' element={<UpdateUser/>}/>
     </Routes>
     </BrowserRouter>
   </React.StrictMode>

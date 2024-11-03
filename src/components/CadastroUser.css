@@ -96,10 +96,10 @@ td {
     width: 60%;
     background-color: #4ca3af;
     color: white;
-    padding: 10px 9px;
-    margin: 8px 0;
+    padding: 1px 14px;
+    margin: 9px 1;
     border: none;
-    border-radius: 30px;
+    border-radius: 13px;
     cursor: pointer;
 }
 
@@ -109,4 +109,18 @@ td {
     transition: 0.3s;
     display: inline-block;
     text-decoration: none;
+}
+
+.divUpdate{
+    background-color: rgb(55, 55, 55);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.h2Update{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;   
 }
