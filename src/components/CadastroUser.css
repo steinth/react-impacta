@@ -1,4 +1,4 @@
-/* css da tela de cadastro */
+/* css da tela de cadastro de usuario */
 
 .inputCadastro{
     width: 80%;
@@ -55,11 +55,254 @@
     
 }
 
-/* css cadastro acima */
+/* css cadastro de usuario acima */
 
-table, th{
-    background-color: #8845a0;
-    border: 1px solid rgb(0, 0, 0);
-    color: rgb(242, 242, 242);
+/* css da pagina de listar usuario */
+
+table {
     border-collapse: collapse;
+    width: 80%;
+  }
+  
+th {
+    border: 1px solid #ffffff;
+    padding: 13px;
+    background-color: #383838;
+    color: white;
+}
+
+td {
+    border: 1px solid #ffffff;
+    padding: 13px;
+    background-color: #666666;
+    color: white;
+}
+
+.divList{
+    background-color: rgb(55, 55, 55);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.h2List{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+.botaoLista{
+    width: 60%;
+    background-color: #4ca3af;
+    color: white;
+    padding: 1px 14px;
+    margin: 9px 1;
+    border: none;
+    border-radius: 13px;
+    cursor: pointer;
+}
+
+.botaoLista:hover {
+    background-color: #32a1b0;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+}
+
+/* css da tela de update de usuario */
+
+.divUpdate{
+    background-color: rgb(55, 55, 55);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h2Update{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+.inputUpdate{
+    width: 80%;
+    padding: 10px 15px;
+    margin: 8px 0;
+    border: 1px solid #4ca3af;
+    border-radius: 10px;
+    background-color: rgb(196, 196, 196);
+    border-width: 1.8px;
+}
+
+.formUpdate{
+    border-radius: 5px;
+    padding: 20px;
+    width: 310px;
+    margin: 0 auto;
+    height: 350px;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(0, 239, 252, 0.19);
+}
+
+.botaoAtualizar{
+    width: 60%;
+    background-color: #4ca3af;
+    color: white;
+    padding: 10px 9px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.botaoAtualizar:hover {
+    background-color: #32a1b0;
+    opacity: 0.6;
+    transition: 0.4s;
+    display: inline-block;
+}
+
+/* cadastro de produto */
+
+.inputCproduto{
+    width: 80%;
+    padding: 10px 15px;
+    margin: 8px 0;
+    border: 1px solid #a49220;
+    border-radius: 10px;
+    background-color: rgb(196, 196, 196);
+    border-width: 1.8px;
+}
+
+.botaoCProduto{
+    width: 60%;
+    background-color: #a49220;
+    color: white;
+    padding: 10px 9px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.botaoCProduto:hover {
+    background-color: #897a1b;
+    opacity: 0.6;
+    transition: 0.4s;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.fomrCproduto{
+    border-radius: 5px;
+    padding: 20px;
+    width: 310px;
+    margin: 0 auto;
+    height: 350px;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(239, 252, 0, 0.19);
+}
+
+.h2CProduto{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.divCProduto{
+    background-color: rgb(55, 55, 55);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* pagina de listar produto */
+
+.h2ListP{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+.divListP{
+    background-color: rgb(55, 55, 55);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.botaoListaP{
+    width: 60%;
+    background-color: #a49220;
+    color: white;
+    padding: 1px 14px;
+    margin: 9px 1;
+    border: none;
+    border-radius: 13px;
+    cursor: pointer;
+}
+
+.botaoListaP:hover {
+    background-color: #897a1b;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+/* pagina de update produto */
+.divUpdateP{
+    background-color: rgb(55, 55, 55);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h2UpdateP{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+.inputUpdateP{
+    width: 80%;
+    padding: 10px 15px;
+    margin: 8px 0;
+    border: 1px solid #a49220;
+    border-radius: 10px;
+    background-color: rgb(196, 196, 196);
+    border-width: 1.8px;
+}
+
+.formUpdateP{
+    border-radius: 5px;
+    padding: 20px;
+    width: 310px;
+    margin: 0 auto;
+    height: 350px;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(231, 252, 0, 0.19);
+}
+
+.botaoAtualizarP{
+    width: 60%;
+    background-color: #a49220;
+    color: white;
+    padding: 10px 9px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.botaoAtualizarP:hover {
+    background-color: #897a1b;
+    opacity: 0.6;
+    transition: 0.4s;
+    display: inline-block;
 }

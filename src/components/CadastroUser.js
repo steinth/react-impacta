@@ -43,7 +43,7 @@ function CadastroUser(){
     
         <div className='divCadastro'>
             <form className='formCadastro' >
-            <h2 className='h2Cadastro'>Cadastro</h2>
+            <h2 className='h2Cadastro'>Cadastro de Usuario</h2>
         
             <input type='text' id='name' name='name' className='inputCadastro'
             placeholder='name'
