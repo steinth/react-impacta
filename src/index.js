@@ -11,6 +11,7 @@ import UpdateUser from './components/UpdateUser';
 import CadastroProduto from './components/CadastroProduto';
 import ListProduto from './components/ListProduto';
 import UpdateProduto from './components/UpdateProduto';
+import Compra from './components/Compra';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -25,6 +26,7 @@ root.render(
       <Route path='/cadastro-produto' element={<CadastroProduto/>}/>
       <Route path='/listar-produto' element={<ListProduto/>}/>
       <Route path='/update-produto/:id' element={<UpdateProduto/>}/>
+      <Route path='/compra' element={<Compra/>}/>
     </Routes>
     </BrowserRouter>
   </React.StrictMode>
